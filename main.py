@@ -7,5 +7,7 @@ PasswordLength = int(input("Enter the length of password\n"))
 Letters = "zxcvbnmasdfghjklqwertyuiop0123456789*-+!@#$%^&*_-=/ZXCVBNMASDFGHJKLQWERTYUIOP"
 
 # Join the Letters and the password length with random choices
-ThePassword = "".join(random.sample(Letters, PasswordLength))
+LettersInPassword = ""
+ThePassword = LettersInPassword.join(random.sample(Letters, PasswordLength))
+
 print(ThePassword)
